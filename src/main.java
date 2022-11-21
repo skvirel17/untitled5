@@ -1,12 +1,17 @@
 public class main {
     public static void main(String[] args) {
-        double a, b, c, d, e;
-        a = 1;
-        b = 10;
-        c = 6;
-        e = b + Math.sqrt((b * b) + 4 * a * c ) / (2 * a);
-        d = e - (a * a * a) * c + 1 / (b * b);
+        double a, b, c;
+        double square, perimetr;
+        a = 4;
+        b = 3;
+        c = Math.sqrt(a * a + b * b);
 
-        System.out.println("d = " + d);
+        square = (a * b) / 2;
+        perimetr = a + b+ c;
+
+        System.out.println("c = " + c);
+        System.out.println("square = " + square);
+        System.out.println("perimetr = " + perimetr);
+
     }
 }
